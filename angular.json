@@ -32,7 +32,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/js/aes.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -95,7 +97,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/js/aes.js"
+            ]
           }
         }
       }
