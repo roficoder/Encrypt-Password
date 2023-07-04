@@ -21,7 +21,7 @@ export class AppComponent {
 
   decrypt(password: string) {
     this.decryptedPassword = this.commonService
-      .encrypt(password)
+      .decrypt(password)
       .toString()
   }
 }

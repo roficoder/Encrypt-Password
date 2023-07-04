@@ -4,6 +4,6 @@
 
 <p>{{encryptedPassword}}</p>
 
-<button (click)="decrypt(input.value)">Decrypt</button>
+<button (click)="decrypt(encryptedPassword)" [disabled]="encryptedPassword == ''">Decrypt</button>
 
 <p>{{decryptedPassword}}</p>
